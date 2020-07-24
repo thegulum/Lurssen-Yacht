@@ -1,0 +1,26 @@
+/*
+Error: Invalid CSS after "    }": expected selector or at-rule, was "}"
+        on line 966 of C:\Users\New User\OneDrive\Desktop\Lurssen - Copy (2)\sass\design.scss
+
+961:     }
+962:     .col-6 {
+963:       margin-left: 6.3rem;
+964:     }
+965:     
+966: }
+
+Backtrace:
+C:\Users\New User\OneDrive\Desktop\Lurssen - Copy (2)\sass\design.scss:966
+D:/New folder/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+D:/New folder/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+D:/New folder/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:42:in `parse'
+D:/New folder/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+D:/New folder/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:290:in `render'
+D:/New folder/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:400:in `run'
+D:/New folder/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+D:/New folder/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+D:/New folder/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+D:/New folder/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+D:/New folder/bin/sass:22:in `load'
+D:/New folder/bin/sass:22:in `<main>'
+*/

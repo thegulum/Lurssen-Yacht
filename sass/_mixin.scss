@@ -1,0 +1,30 @@
+@mixin flex {
+    display: flex;
+}
+
+@mixin flex-y-center{  @include flex-y-center;
+    display: flex;
+    align-items: center;
+}
+@mixin mainBorderRadius {
+    border-radius: 20px;
+}
+
+@mixin secondaryBorderRadius {
+    border-radius: 5px;
+}
+@mixin image-proper-resize {
+    object-fit: cover;
+    background-size: cover;
+}
+@mixin text-dec-none {
+    text-decoration: none;
+}
+
+@mixin white-wrap{
+    white-space: nowrap;
+}
+
+@mixin justify-start{
+    justify-content: flex-start;
+}
